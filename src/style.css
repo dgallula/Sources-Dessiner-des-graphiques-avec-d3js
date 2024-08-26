@@ -1,0 +1,60 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+label {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #0f172a1a;
+}
+
+.axis {
+    color: rgb(100, 116, 139);
+}
+
+.legend {
+    fill: rgb(100, 116, 139);
+    font-size: .8rem;
+    alignment-baseline: middle;
+}
+
+.point {
+    fill: #219ebc;
+    stroke: #FFF;
+    stroke-width: 1px;
+    filter: drop-shadow(0px 0px 1px rgb(0 0 0 / 0.6));
+}
+
+.line {
+    fill: transparent;
+    stroke-width: 2px;
+    stroke: #219ebc;
+}
+
+.stop1 {
+    stop-color: #8ecae6;
+}
+
+.stop2 {
+    stop-color: #ffffff;
+}
+
+.area {
+    fill: url(#gradient)
+}
+
+.bar {
+    stroke: #219ebc;
+    fill: rgba(255, 255, 255, 0.45);
+    stroke-width: 2px;
+}
